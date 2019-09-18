@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">ElDomiaty</string>
+    <string name="slogan">No matter where you are: whether you are at home, or in the office, or on the beach - we will find you and we will feed you.</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Un Known</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- <u> Tag To Make Line Under Word -->
+    <string name="forget_pwd"><u>Forgot Password?</u></string>
+
+
+
+    <!--HashKey Of This App : BTnB5+euW9nkS+OiK7OJjMK6zpM=
+     This Make User Sign In By His Phone Number
+     From developers.facebook.com To Get This 3 Codes.
+     facebook_app_id : Copy From APP ID.
+     facebook_login_protocol_name : fb [Same APP ID] But Don't Forget [fb].
+     account_kit_client_token : From Products => Press On Setup Facebook Login => After Finish Steps
+     Choose Settings & You Will Get Account Kit Client Token.
+     -->
+    <string name="facebook_app_id">1891222541173318</string>
+
+    <string name="facebook_login_protocol_name">fb1891222541173318</string>
+
+    <string name="account_kit_client_token">7542a69be1cf13c567bcc9ababcde107</string>
+
+</resources>

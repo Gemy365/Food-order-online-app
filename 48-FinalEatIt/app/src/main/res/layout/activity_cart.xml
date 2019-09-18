@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/act_cart_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/background"
+    tools:context=".Cart">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/listCart"
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <!--use the cardBackgroundColor attribute to remove color and
+    cardElevation attribute to remove the drop shadow.-->
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        card_view:cardBackgroundColor="@android:color/transparent"
+        card_view:cardElevation="0dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:text=" الأجمالي: "
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:text=" ج.م 1000 "
+                android:textSize="24sp"/>
+
+        </LinearLayout>
+
+        <info.hoang8f.widget.FButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnPlaceOrder"
+            android:text="طلب الأوردر"
+            android:textColor="#fff"
+            android:layout_alignBottom="@+id/total"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="8dp"
+            app:fButtonColor="#00E676"
+            app:shadowColor="#000"
+            app:shadowEnabled="true"
+            app:shadowHeight="5dp"
+            tools:ignore="NotSibling" />
+
+    </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

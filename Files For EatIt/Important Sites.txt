@@ -1,0 +1,17 @@
+1- FireBaseDataBase:
+https://console.firebase.google.com/project/eatit-ea99e/database/eatit-ea99e/data
+
+2- Make Json:
+http://www.objgen.com/json
+
+Hint:
+After Get Json From objgen Site Put it In Own X.json And Import It To FireBase Site.. 
+Don't Make Change In FireBase Site Manual.
+
+3- Color Gradient To Make Back Ground:
+https://www110.lunapic.com/editor/?action=gradient
+
+Hint: Make [Top Color "Black" , Bottom Color "Black"]
+
+4- MediFoods.my For Foods Images:
+http://medifoods.my/menu-finger-foods/

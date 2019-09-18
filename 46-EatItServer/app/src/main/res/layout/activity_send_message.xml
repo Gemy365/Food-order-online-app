@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".SendMessage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_centerInParent="true">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edt_title"
+            android:hint="Title"
+            android:textColorHint="#fff"
+            android:textColor="#fff"
+            android:textSize="34sp"
+            android:inputType="text"
+            app:met_baseColor="#fff"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="#fff"
+            app:met_singleLineEllipsis="true"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edt_message"
+            android:hint="Message"
+            android:textColorHint="#fff"
+            android:textColor="#fff"
+            android:textSize="34sp"
+            android:inputType="textMultiLine"
+            app:met_baseColor="#fff"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="#fff"
+            app:met_singleLineEllipsis="true"/>
+
+    </LinearLayout>
+
+    <info.hoang8f.widget.FButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_send"
+        android:text="Send Message"
+        android:textColor="#fff"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="8dp"
+        app:fButtonColor="#00E676"
+        app:cornerRadius="5dp"
+        app:shadowColor="#000"
+        app:shadowEnabled="true"
+        app:shadowHeight="5dp"
+        />
+
+</RelativeLayout>

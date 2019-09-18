@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_name_for_new_menu"
+            android:hint="Name"
+            android:textColorHint="@color/colorPrimary"
+            android:text=""
+            android:textColor="@color/colorPrimary"
+            android:textSize="34sp"
+            android:inputType="text"
+            app:met_baseColor="@color/colorPrimary"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/colorPrimary"
+            app:met_singleLineEllipsis="true"/>
+
+        <LinearLayout
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <info.hoang8f.widget.FButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/btn_select"
+                android:text="SELECT"
+                android:textColor="#fff"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="8dp"
+                app:fButtonColor="@color/colorPrimary"
+                app:shadowColor="#fff"
+                app:shadowEnabled="true"
+                app:shadowHeight="5dp"
+                />
+
+            <info.hoang8f.widget.FButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/btn_upload"
+                android:text="UPLOAD"
+                android:textColor="#fff"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="8dp"
+                app:fButtonColor="#000"
+                app:shadowColor="#fff"
+                app:shadowEnabled="true"
+                app:shadowHeight="5dp"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

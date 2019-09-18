@@ -1,0 +1,6 @@
+Hint:
+We Just End Clint Side [7-EatIt]
+
+From 8 We Will Modify Clint & Server
+
+In FireBase: The Server Created Into EatIt Project [So Both Have The Same DataBase]
